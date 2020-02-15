@@ -7,7 +7,7 @@ import User from '../assets/user.svg';
 function Header() {
   return (
     <header>
-      <img class="logo" src={Logo} alt="logo" />
+      <img className="logo" src={Logo} alt="logo" />
       <ul>
         <li><p>Meu perfil</p></li>
         <li><img src={User} /></li>
