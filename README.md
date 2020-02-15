@@ -13,6 +13,8 @@ As informações contidas na interface não precisam refletir nenhuma API REST o
 
 [Link do Desafio](https://github.com/Rocketseat/bootcamp-gostack-desafio-04)
 
+### Resultado
+
 <h1 align="center">
   <img src=".github/facebook-clone-react.png" width="800px" />
 </h1>
