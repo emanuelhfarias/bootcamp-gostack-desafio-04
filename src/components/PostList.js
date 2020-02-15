@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
+import Post from './Post';
+
 import './PostList.css';
-import User from '../assets/user.svg';
 
 class PostList extends Component {
 
@@ -81,37 +82,7 @@ class PostList extends Component {
   render() {
     return (
       <div className="wrapper">
-
-        {this.state.posts.map(post => (
-          <div key={post.id} className="post">
-            <div className="post-info">
-              <img src={User} />
-              <div className="post-info-topo">
-                <strong>{post.author.name}</strong>
-                <small>{post.date}</small>
-              </div>
-            </div>
-
-            <div className="post-text">
-              {post.content}
-            </div>
-
-            <ul className="comments">
-              {post.comments.map(comment => (
-                <li key={comment.id}>
-                  <img src={User} />
-                  <section>
-                    <p>
-                      <strong>{comment.author.name}</strong>:
-                      {comment.content}
-                    </p>
-                  </section>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-
+        {this.state.posts.map(post => <Post key={post.id} post={post} />)}
       </div>
     )
   }
