@@ -12,3 +12,7 @@ Desenvolver uma interface semelhante ao do Facebook utilizando React.
 As informações contidas na interface não precisam refletir nenhuma API REST ou back-end.
 
 [Link do Desafio](https://github.com/Rocketseat/bootcamp-gostack-desafio-04)
+
+<h1 align="center">
+  <img src=".github/facebook-clone-react.png" width="800px" />
+</h1>
