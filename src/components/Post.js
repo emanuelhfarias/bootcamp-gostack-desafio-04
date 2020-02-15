@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Comment from './Comment';
+
 import User from '../assets/user.svg';
 
 function Post({ post }) {
@@ -19,14 +21,7 @@ function Post({ post }) {
 
       <ul className="comments">
         {post.comments.map(comment => (
-          <li key={comment.id}>
-            <img src={User} />
-            <section>
-              <p>
-                <strong>{comment.author.name}</strong> {comment.content}
-              </p>
-            </section>
-          </li>
+          <Comment key={comment.id} comment={comment} />
         ))}
       </ul>
     </div>
