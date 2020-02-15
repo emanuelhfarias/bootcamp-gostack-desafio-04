@@ -7,25 +7,25 @@ header {
   padding: 20px 60px;
 }
 
-.logo {
+header .logo {
   width: 121px;
 }
 
-ul {
+header ul {
   display: flex;
   align-items: center;
 }
 
-ul li {
+header ul li {
   list-style: none;
 }
 
-ul li p {
+header ul li p {
   color: #FFF;
   font-weight: bold;
 }
 
-ul li img {
+header ul li img {
   margin-left: 12px;
   width: 24px;
   filter: invert(100%);
