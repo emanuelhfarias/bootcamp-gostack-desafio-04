@@ -11,7 +11,7 @@
 Desenvolver uma interface semelhante ao do Facebook utilizando React.
 As informações contidas na interface não precisam refletir nenhuma API REST ou back-end.
 
-[Link do Desafio](https://github.com/Rocketseat/bootcamp-gostack-desafio-04)
+[Link do Desafio](https://github.com/Rocketseat/bootcamp-gostack-desafio-04/blob/a5f8f5dd7ae9815aac0ee213304a9b6cc456ea7b/README.md)
 
 ### Resultado
 
